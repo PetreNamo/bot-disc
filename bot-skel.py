@@ -37,7 +37,7 @@ def log_msg(msg: str, level: str):
 
     # get information about call site
     caller = inspect.stack()[1]
-
+//comentarii degeaba
     # input sanity check
     if level not in dsp_sel:
         print('%s%s[@] %s:%d %sBad log level: "%s"%s' % \
@@ -58,7 +58,7 @@ def log_msg(msg: str, level: str):
 
 # bot instantiation
 bot = commands.Bot(command_prefix='!')
-
+//comentarii degeaba
 # on_ready - called after connection to server is established
 @bot.event
 async def on_ready():
