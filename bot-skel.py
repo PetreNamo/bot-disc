@@ -88,7 +88,7 @@ async def roll(ctx, max_val: int):
         raise Exception('argument <max_val> must be at least 1')
 
     await ctx.send(random.randint(1, max_val))
-
+//c-ul e de cacat
 # roll_error - error handler for the <roll> command
 #   @ctx     : command that crashed invocation context
 #   @error   : ...
@@ -99,7 +99,7 @@ async def roll_error(ctx, error):
 ################################################################################
 ############################# PROGRAM ENTRY POINT ##############################
 ################################################################################
-
+//c-ul e de cacat
 if __name__ == '__main__':
     # check that token exists in environment
     if 'BOT_TOKEN' not in os.environ:
